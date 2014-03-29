@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font: 8pt tahoma;
+}
+.inner {
+    padding: 10px;
+}
+.wrap {
+    background: url("../images/bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 330px;
+    margin: 0 auto;
+    width: 400px;
+}
+.base {
+    background: url("../images/base.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 303px;
+    margin: 0 auto;
+    width: 301px;
+}
+.btn .i-btn {
+    background: url("../images/btn.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+}
+.i-btn.prev {
+    background-position: left 82%;
+}
+.i-btn.play {
+    background-position: center top;
+    height: 75px;
+    width: 75px;
+}
+.i-btn.prev, .i-btn.next {
+    height: 41px;
+    width: 41px;
+}
+.i-btn.next {
+    background-position: right 82%;
+}
+.btn {
+    margin: 0 auto;
+    width: 165px;
+}
+.song {
+    position: relative;
+}
+.song:before {
+    background: url("../images/line.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    content: "";
+    height: 5px;
+    position: absolute;
+    width: 100%;
+}
+.i {
+    background: url("../images/i.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    vertical-align: middle;
+}
+.i.volume {
+    background-position: -13px -18px;
+    height: 10px;
+    margin: 0 10px 0 0;
+    width: 13px;
+}
+.name {
+    font-weight: bold;
+    margin: 0 0 10px;
+    padding: 10px 0 0;
+}
+.bar {
+    background: url("../images/bar.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 8px;
+    margin: 0 10px 0 0;
+    width: 244px;
+}
+.progress {
+    background: url("../images/progress.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 8px;
+    width: 145px;
+}
+.i.play {
+    background-position: -13px -150px;
+    height: 25px;
+    width: 26px;
+}
+.playlist {
+    margin: 10px 0 0;
+}
+.playlist .item {
+    background: url("../images/item.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 37px;
+    line-height: 37px;
+    padding: 0 10px;
+}
+.mark {
+    background: url("../images/mark.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 16px;
+    margin: 0 0 0 10px;
+    position: relative;
+    vertical-align: middle;
+    width: 28px;
+}
+.item .mark:last-child {
+    width: 25px;
+}
+.mark.cloud {
+    background-position: 2px -3px;
+}
+.mark.star.active {
+    background-position: right -3px;
+}
+.mark.true {
+    background-position: 2px bottom;
+}
+.mark.star {
+    background-position: right bottom;
+}
+.mark:after {
+    background: url("../images/vt.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    content: "";
+    height: 25px;
+    left: -10px;
+    position: absolute;
+    width: 2px;
+}
+.item .title {
+    display: inline-block;
+    margin: 0 0 0 5px;
+    width: 168px;
+}
+.search {
+    background-position: -15px 93%;
+    height: 23px;
+    margin: 5px 0 0;
+    width: 283px;
+}
+.search input {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    font: 8pt tahoma;
+    height: 20px;
+    margin: 1px 0 0 25px;
+    width: 250px;
+}
